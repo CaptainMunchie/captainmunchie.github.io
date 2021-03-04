@@ -320,6 +320,32 @@ img{
     color: var(--first-color-lighten);
 }
 
+/*===== GOTO TOP BUTTON =====*/
+.gotopbtn{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: var(--first-color);
+    color: #fff;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 8px;
+    z-index: 1;
+    /* align-items: center; */
+    /* align-content: center; */
+}
+.bx-up-arrow-alt{
+    font-size: 40px;
+    
+}
+
+.gotopbtn:hover{
+    background-color: rgb(31, 131, 224);
+}
+
 /*===== ABOUT =====*/
 .about__container{
     row-gap: 2rem;
